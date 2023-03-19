@@ -7,48 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telediario</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="generales.css">
+    <link rel="shortcut icon" href="img/">
 </head>
 
 <body>
     <header>
-
         <h1>Ultimas noticias sobre el ámbito <em>gaming</em></h1>
     </header>
     <nav>
-            <li><a href="index2.html">Mundo competitivo</a></li>
-            |
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="#filtraciones">Filtraciones!!</a></li>
-            |
             <li><a href="#top">Y por aqui un top muy top</a></li>
-
+            <li><a href="index2.html">Mundo Competitivo</a></li>
+            <li><a href="index3.html">Register</a></li>
+        </ul>
     </nav>
-        <p> Para empezar, comenzaremos hablando sobre el ultimo motor gráfico del mercado, el <a
-                href="https://www.unrealengine.com/en-US/unreal-engine-5">Unreal Engine 5</a>, es lo mejor que se ha
-            creado hasta la fecha, y en la siguiente imágene os lo vamos a demostrar:
+    <section class="grid-presentacion">
+        <div>
+            <p> Para empezar, comenzaremos hablando sobre el ultimo motor gráfico del mercado, el <a
+                    href="https://www.unrealengine.com/en-US/unreal-engine-5">Unreal Engine 5</a>, es lo mejor que se ha
+                creado hasta la fecha, y en la siguiente imágene os lo vamos a demostrar:
+            </p>
+            <p>Es increible que en tan solo unos años se haya conseguido este salto tan grande en la indusrtia de los
+                videojuegos, teniendo en cuenta que por ejemplo hace 10 años uno de los mejores juegos a nivel visual era el
+                Assassins Creed III, y se veía de esta manera:
+            </p>
+            <a href="https://img.xcitefun.net/users/2013/11/345870,xcitefun-assassins-creed-iii-liberation-6.jpg">
+                <button>Assassins
+                    Creed III(2012)</button>
+            </a>
 
-        </p>
-        <img src="img/1366_2000.jpg" height="800" width="1280" alt="Nuevo Unreal Engine 5">
+            <p>Para los que no sepan que es Unreal Engine 5, Unreal Engine 5 Unreal Engine permite a los desarrolladores y
+                creadores de videojuegos de todos los sectores crear contenido y experiencias 3D de nueva generación en tiempo real
+                con más libertad, fidelidad y flexibilidad que nunca.
+            </p>
+            <p> También se puede comentar los proyectos que hay con el Unreal Engine 5, pero por el momento no ha salido
+                nada a la luz; pero si algo que mas adelante os contaremos :).
+            </p>
+            <img src="">
+        </div>
+        <img src="img/1366_2000.jpg" alt="Nuevo Unreal Engine 5">
+    </section>
 
-        <p>Es increible que en tan solo unos años se haya conseguido este salto tan grande en la indusrtia de los
-            videojuegos, teniendo en cuenta que por ejemplo hace 10 años uno de los mejores juegos a nivel visual era el
-            Assassins Creed III, y se veía de esta manera:
 
-        </p>
-
-        <a href="https://img.xcitefun.net/users/2013/11/345870,xcitefun-assassins-creed-iii-liberation-6.jpg">
-            <button>Assassins
-                Creed III(2012)</button>
-        </a>
-        <p> También se puede comentar los proyectos que hay con el Unreal Engine 5, pero por el momento no ha salido
-            nada a la luz; pero si algo que mas adelante os contaremos :).
-
-        </p>
-
-    </header>
 
     <hr>
 
-    <section id="filtraciones">
+    <section id="filtraciones" class="grid-video">
+        <article>
+            <video src="vid/videoplayback.mp4" controls></video>
+
+        </article>
         <article>
             <h2>Filtraciones!!</h2>
 
@@ -63,19 +74,9 @@
             </p>
 
             <!--Cuidado porque esto es tocho eh gente-->
-            <p>Aquí os dejamos unos archivos de video e imagen para que lo veais con vuestos propios ojos:
-
-            </p>
-
-            <video src="vid/videoplayback.mp4" controls></video>
-
-            <br>
-            <br>
+            <p>Aquí os dejamos unos archivos de video e imagen para que lo veais con vuestos propios ojos:</p>
 
             <audio src="vid/audiogta6.mp3" controls></audio>
-
-            <br>
-
         </article>
     </section>
 
@@ -104,14 +105,16 @@
             <li>Todavía está por decidir(Pero el Elden Ring tiene bastantes papeletas)</li>
         </ol>
         <br>
-        <button onclick="https:/es.wikipedia.org/wiki/Spike_Video_Game_Awards">Fuente</button>
+        <a class="button" href="https:/es.wikipedia.org/wiki/Spike_Video_Game_Awards">Fuente</a>
     </section>
-
-        <h2>Datos curiosos</h2>     
-        <table border="1">
-            <th>Juego</th>
-            <th>Número</th>
-            <th>Equivalencia</th>
+    <section style="text-align: center">
+        <h2>Datos curiosos</h2>
+        <table style="border: 1px solid black">
+            <tr>
+                <th>Juego</th>
+                <th>Número</th>
+                <th>Equivalencia</th>
+            </tr>
 
             <tr>
                 <td>Fortnite</td>
@@ -131,17 +134,20 @@
                 <td>Costo de las actualizaciones del Palacio de Kensigton en 2014, Reino Unido</td>
             </tr>
         </table>
+    </section>
 
     <br>
-    
+
+    <ul><li><a href="index.html">Inicio ↑</a></li></ul>
+
     <footer>
-        Y hasta aqui esta pequeña pagina, esepremos que os haya gustado, os iremos actualizando de nuevas cositas, chao
+        Y hasta aqu´´i esta pequeña pagina, esperemos que os haya gustado, os iremos actualizando de nuevas cositas, chao
         chao!
 
         <br>
         <br>
 
-        Derechos de autor del amo del mundo, Taxalo 2022©
+        Derechos de autor del amo del mundo, Moneygamer 2023©
     </footer>
 </body>
 </html>
